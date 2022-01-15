@@ -3,30 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/drawable/btn_background.xml" value="0.40260416666666665" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/drawable/btn_background2.xml" value="0.40260416666666665" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/drawable/choice_btn.xml" value="0.40260416666666665" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/drawable/choice_btn1.xml" value="0.234375" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/drawable/choice_btn2.xml" value="0.40260416666666665" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/drawable/switch_btn_background.xml" value="0.40260416666666665" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/drawable/tablerow_background.xml" value="0.40260416666666665" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/drawable/tablerow_background_2.xml" value="0.40260416666666665" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/drawable/text_gradiant.xml" value="0.40260416666666665" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/activity_friendship_records.xml" value="0.43645833333333334" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/activity_good.xml" value="0.21822916666666667" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/activity_hope.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/activity_login.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/activity_login.xml" value="0.21422101449275363" />
         <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/activity_records.xml" value="0.5" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/activity_share_page.xml" value="0.33" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/fragment_friendship_records.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/fragment_friendship_records1.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/fragment_friendship_records2.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/fragment_friendship_records3.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/fragment_friendship_records4.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/fragment_friendship_records5.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/fragment_friendship_records6.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/fragment_friendship_records7.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/activity_records.xml" value="0.21422101449275363" />
+        <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/activity_share_page.xml" value="0.21422101449275363" />
+        <entry key="..\:/hitonproject/Hightone_android/app/src/main/res/drawable/btn_next_off.xml" value="0.26666666666666666" />
+        <entry key="..\:/hitonproject/Hightone_android/app/src/main/res/drawable/btn_next_on.xml" value="0.22135416666666666" />
+        <entry key="..\:/hitonproject/Hightone_android/app/src/main/res/drawable/button_next.xml" value="0.21743589743589745" />
+        <entry key="..\:/hitonproject/Hightone_android/app/src/main/res/drawable/edit_sign.xml" value="0.26666666666666666" />
+        <entry key="..\:/hitonproject/Hightone_android/app/src/main/res/drawable/edit_signin.xml" value="0.38229166666666664" />
+        <entry key="..\:/hitonproject/Hightone_android/app/src/main/res/drawable/email_check.xml" value="0.38229166666666664" />
+        <entry key="..\:/hitonproject/Hightone_android/app/src/main/res/font/font.xml" value="0.3963541666666667" />
+        <entry key="..\:/hitonproject/Hightone_android/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/hitonproject/Hightone_android/app/src/main/res/layout/activity_signin.xml" value="0.33" />
+        <entry key="..\:/hitonproject/Hightone_android/app/src/main/res/layout/activity_signup.xml" value="0.33" />
+        <entry key="..\:/hitonproject/Hightone_android/app/src/main/res/layout/activity_signup_email.xml" value="0.2" />
+        <entry key="..\:/hitonproject/Hightone_android/app/src/main/res/layout/activity_signup_ending.xml" value="0.36614583333333334" />
+        <entry key="..\:/hitonproject/Hightone_android/app/src/main/res/layout/activity_signup_school.xml" value="0.5" />
       </map>
     </option>
   </component>

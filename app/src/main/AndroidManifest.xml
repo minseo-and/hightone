@@ -10,7 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hightone">
         <activity
-<<<<<<< HEAD
+            android:name=".minseo.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".minseo.GoodActivity"
             android:exported="false" />
         <activity
@@ -25,23 +33,6 @@
         <activity
             android:name=".minseo.FriendshipRecordsActivity"
             android:exported="true" />
-        <activity
-=======
->>>>>>> main
-            android:name=".minseo.MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".jeongwoo.SignUpActivity"
-            android:exported="false" />
-        <activity
-            android:name=".jeongwoo.LoginActivity"
-            android:exported="false" />
     </application>
 
 </manifest>
