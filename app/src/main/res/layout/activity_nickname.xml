@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".minseo.Nickname">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/half_line"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/left_guide_line"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/right_guide_line"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <EditText
+        android:id="@+id/et_nick"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:background="@drawable/choice_btn2"
+        app:layout_constraintLeft_toLeftOf="@id/left_guide_line"
+        app:layout_constraintRight_toRightOf="@id/right_guide_line"
+        app:layout_constraintTop_toTopOf="@id/half_line"
+        android:hint="10자 이내로 작성해 주세요!"
+        android:textColor="#8B8B8B"
+        android:fontFamily="@font/bm_yeonseong"
+        android:paddingLeft="10dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/left_guide_line"
+        app:layout_constraintBottom_toTopOf="@id/et_nick"
+        android:text="마지막 입니다.\n사용하실 닉네임을 적어주세요! "
+        android:textColor="@color/black"
+        android:fontFamily="@font/bm_yeonseong"
+        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="66dp"
+        android:layout_height="32dp"
+        app:layout_constraintTop_toBottomOf="@id/et_nick"
+        app:layout_constraintRight_toRightOf="@id/right_guide_line"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/btn_background"
+        android:text="확인"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/bm_yeonseong"
+        android:textSize="18sp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -38,6 +38,7 @@ class FriendshipRecordsActivity : AppCompatActivity() {
         btn_skip!!.setOnClickListener {
             val intent = Intent(this, HopeActivity::class.java)
             startActivity(intent)
+            finish()
         }
 
        if (max<=3){

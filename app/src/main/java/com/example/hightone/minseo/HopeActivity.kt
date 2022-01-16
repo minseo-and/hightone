@@ -11,7 +11,9 @@ import com.example.hightone.R
 import android.text.Editable
 
 import android.text.TextWatcher
+import android.util.Log
 import android.widget.Button
+import kotlin.math.log
 
 
 class HopeActivity : AppCompatActivity() {
@@ -26,19 +28,14 @@ class HopeActivity : AppCompatActivity() {
         tv_length = findViewById(R.id.tv_length)
         btn_skip_2 = findViewById(R.id.btn_skip_2)
 
-        val input_2: String = et_write!!.text.toString()
 
         btn_skip_2!!.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, GoodActivity::class.java)
+            intent.putExtra("문자", et_write!!.text.toString())
             startActivity(intent)
-
+            finish()
         }
 
-        btn_skip_2!!.setOnClickListener {
-            val intent2 = Intent(this, RecordsActivity::class.java)
-            intent2.putExtra("문자2", input_2)
-
-        }
 
         et_write!!.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}

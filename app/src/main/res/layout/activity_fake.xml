@@ -5,7 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".minseo.RecordsActivity">
+    tools:context=".minseo.FakeActivity">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#50000000"/>
+
+
+
+
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/left_guide_line"
@@ -72,7 +83,7 @@
         android:layout_marginTop="10dp"
         app:layout_constraintTop_toBottomOf="@id/bottom_line"
         app:layout_constraintRight_toRightOf="@id/right_guide_line"
-        android:text="작성자 : 최성현"
+        android:text="작성자 : "
         android:textColor="@color/black"
         android:fontFamily="@font/bm_yeonseong"
         android:textSize="15sp" />
@@ -157,7 +168,7 @@
             android:background="@drawable/tablerow_background"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toTopOf="@id/tv_answer_hope"
-            android:text="최다치즈님이 이정우님과 다음 연도에 해보고 싶은 것."
+            android:text="이정우님과 다음 연도에 해보고 싶은 것."
             android:textColor="@color/black"
             android:textSize="15sp"
             android:fontFamily="@font/bm_yeonseong"
@@ -222,14 +233,7 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <ImageView
-        android:id="@+id/img_stamp"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:src="@drawable/stamp"
-        android:layout_marginRight="40dp" />
+
 
     <TextView
         android:id="@+id/tv_principal"
@@ -255,4 +259,38 @@
         android:fontFamily="@font/bm_yeonseong"
         android:text="하이톤고등학교장" />
 
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/pop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="280dp"
+        android:layout_height="165dp"
+        android:background="@drawable/rectangle"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="아직 아무것도 작성되지 않았어요ㅠㅠ\n공유 페이지로 이동하여 우정기록부를 작성하세요!!"
+        android:textColor="@color/black"
+        android:fontFamily="@font/bm_yeonseong"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/left_guide_line"
+        app:layout_constraintRight_toRightOf="@id/right_guide_line"/>
+
+    <TextView
+        android:id="@+id/tv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="@id/pop"
+        app:layout_constraintBottom_toBottomOf="@id/pop"
+        android:text="공유 페이지로 이동하기"
+        android:textColor="#FD0000"
+        android:fontFamily="@font/bm_yeonseong"
+        android:textSize="18sp"
+        android:layout_margin="10dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

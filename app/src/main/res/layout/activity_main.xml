@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".minseo.MainActivity">
-
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/left_guide_line"
@@ -41,8 +41,6 @@
         android:textSize="35sp"
         app:layout_constraintLeft_toLeftOf="@id/left_guide_line"
         app:layout_constraintTop_toBottomOf="@id/iv_logo" />
-    =======
-    >>>>>>> main
 
     <TextView
         android:id="@+id/tv_welcome"
@@ -84,10 +82,10 @@
             app:layout_constraintGuide_percent="0.5" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:id="@+id/write_friend"            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="35dp"
-            android:text="우정기록표"
+            android:text="우정기록부"
             app:layout_constraintBottom_toBottomOf="@id/half_line"
             app:layout_constraintLeft_toLeftOf="parent"
             android:layout_marginLeft="10dp"
@@ -106,6 +104,7 @@
             android:textColor="#8B8B8B" />
 
         <ImageView
+            android:id="@+id/im_pencil"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             app:layout_constraintRight_toRightOf="parent"
@@ -138,7 +137,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="35dp"
-            android:text="우정기록표"
+            android:text="우정기록부"
             app:layout_constraintBottom_toBottomOf="@id/half_line_2"
             app:layout_constraintLeft_toLeftOf="parent"
             android:layout_marginLeft="10dp"
@@ -185,10 +184,11 @@
             app:layout_constraintGuide_percent="0.5" />
 
         <TextView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="35dp"
-            android:text="우정기록표"
+            android:text="우정기록부"
             app:layout_constraintBottom_toBottomOf="@id/half_line_3"
             app:layout_constraintLeft_toLeftOf="parent"
             android:layout_marginLeft="10dp"
@@ -207,6 +207,7 @@
             android:textColor="#8B8B8B" />
 
         <ImageView
+
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             app:layout_constraintRight_toRightOf="parent"
@@ -216,4 +217,25 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <TextView
+        android:id="@+id/tv_ex1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00000000"
+        android:textSize="12sp"
+        android:fontFamily="@font/bm_yeonseong"
+        android:text=""
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_ex2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00000000"
+        android:textSize="12sp"
+        android:fontFamily="@font/bm_yeonseong"
+        android:text=""
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

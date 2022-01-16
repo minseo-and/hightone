@@ -15,6 +15,7 @@ class GoodActivity : AppCompatActivity() {
     private var et_write: EditText? = null
     private var tv_length: TextView? = null
     private var btn_done: Button? = null
+    private var tv_good : TextView?= null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_good)
@@ -22,21 +23,19 @@ class GoodActivity : AppCompatActivity() {
         et_write = findViewById(R.id.et_hope_2)
         tv_length = findViewById(R.id.tv_length)
         btn_done = findViewById(R.id.btn_done)
-
-        val input_2: String = et_write!!.text.toString()
+        tv_good = findViewById(R.id.tv_ex)
+        var exText1 : String? = intent.getStringExtra("문자")
+        tv_good!!.setText(exText1)
 
         btn_done!!.setOnClickListener {
-            val intent = Intent(this, HopeActivity::class.java)
+            val intent = Intent(this, Nickname::class.java)
+            intent.putExtra("문자", tv_good!!.text.toString())
+            intent.putExtra("문자2", et_write!!.text.toString())
             startActivity(intent)
+            finish()
 
         }
 
-        btn_done!!.setOnClickListener {
-            val intent2 = Intent(this, RecordsActivity::class.java)
-            intent2.putExtra("문자1", input_2)
-
-
-        }
 
         et_write!!.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
@@ -59,5 +58,4 @@ class GoodActivity : AppCompatActivity() {
             }
         })
     }
-}
 }

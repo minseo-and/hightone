@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".minseo.GoodActivity">
 
     <androidx.constraintlayout.widget.Guideline
@@ -112,7 +113,7 @@
         app:layout_constraintRight_toRightOf="@id/right_guide_line"
         android:hint="작성해 주세요"
         android:gravity="top"
-        android:textSize="12sp"
+        android:textSize="20sp"
         android:fontFamily="@font/bm_yeonseong"
         android:textColor="@color/black"
         android:maxLength="301"/>
@@ -128,6 +129,18 @@
         app:layout_constraintRight_toRightOf="@id/right_guide_line"
         app:layout_constraintTop_toBottomOf="@id/et_hope_2"
         app:layout_constraintBottom_toBottomOf="@id/bottom_guide_line"/>
+
+
+    <TextView
+        android:id="@+id/tv_ex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00000000"
+        android:textSize="12sp"
+        android:fontFamily="@font/bm_yeonseong"
+        android:text=""
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

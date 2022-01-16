@@ -3,6 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/drawable/btn_background.xml" value="0.40260416666666665" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/drawable/btn_background2.xml" value="0.40260416666666665" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/drawable/btn_next_off.xml" value="0.40260416666666665" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/drawable/btn_next_on.xml" value="0.40260416666666665" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/drawable/choice_btn.xml" value="0.40260416666666665" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/drawable/choice_btn1.xml" value="0.40260416666666665" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/drawable/choice_btn2.xml" value="0.40260416666666665" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/drawable/choice_btn3.xml" value="0.40260416666666665" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/layout/activity_done.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/layout/activity_fake.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/layout/activity_friendship_records.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/layout/activity_good.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/layout/activity_hope.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/layout/activity_nickname.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/layout/activity_pop_up.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/layout/activity_record_start.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/layout/activity_records.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/layout/activity_share_page.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/msp05/AndroidStudioProjects/high/app/src/main/res/layout/activity_sign_in_main.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/activity_login.xml" value="0.21422101449275363" />
         <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/msp05/Hightone/app/src/main/res/layout/activity_records.xml" value="0.21422101449275363" />
